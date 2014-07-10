@@ -630,13 +630,6 @@ body#login-page #yui-main {
 }
 
 #graphic-dialog {
-/*    width: 600px;*/
-/*    height: 380px;*/
-/*    background: url(../images/g9/backgrounds/bg_login_box.png) no-repeat 0 0;*/
-/*    margin: auto;*/
-    
-    
-    
     margin: 80px auto;
     width: 510px;
     border: 0px solid #895A8D;
@@ -650,7 +643,6 @@ body#login-page #yui-main {
     -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     -o-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     }
-}
 
 
 img#application_logo {
@@ -1329,11 +1321,10 @@ a:visited.submiting-link,
     color: #900;
 }
 
-.ok_message { {
+.ok_message {
     font-weight: normal;
     color: #33cc66;
     font-size: 11px;
-}
 }
 
 a.obvious-link {

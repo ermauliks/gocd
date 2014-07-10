@@ -64,9 +64,6 @@ input, textarea, select {
     font-weight: inherit;
 }
 
-input, textarea, select {
-* font-size : 100 %;
-}
 
 legend {
     color: #000;
@@ -93,7 +90,6 @@ table {
 
 pre, code, kbd, samp, tt {
     font-family: monospace;
-* font-size : 108 %;
     line-height: 100%;
 }
 
@@ -109,13 +105,11 @@ body {
     margin: auto;
     text-align: left;
     width: 57.69em;
-* width : 56.25 em;
     min-width: 750px;
 }
 
 #doc2 {
     width: 73.076em;
-* width : 71.25 em;
 }
 
 #doc3 {
@@ -125,7 +119,6 @@ body {
 
 #doc4 {
     width: 74.923em;
-* width : 73.05 em;
 }
 
 .yui-b {
@@ -144,13 +137,6 @@ body {
     width: 100%;
 }
 
-{
-width:
-
-100
-%
-;
-}
 .yui-t1 #yui-main, .yui-t2 #yui-main, .yui-t3 #yui-main {
     float: right;
     margin-left: -25em;
@@ -164,67 +150,55 @@ width:
 .yui-t1 .yui-b {
     float: left;
     width: 12.30769em;
-* width : 12.00 em;
 }
 
 .yui-t1 #yui-main .yui-b {
     margin-left: 13.30769em;
-* margin-left : 13.05 em;
 }
 
 .yui-t2 .yui-b {
     float: left;
     width: 13.8461em;
-* width : 13.50 em;
 }
 
 .yui-t2 #yui-main .yui-b {
     margin-left: 14.8461em;
-* margin-left : 14.55 em;
 }
 
 .yui-t3 .yui-b {
     float: left;
     width: 23.0769em;
-* width : 22.50 em;
 }
 
 .yui-t3 #yui-main .yui-b {
     margin-left: 24.0769em;
-* margin-left : 23.62 em;
 }
 
 .yui-t4 .yui-b {
     float: right;
     width: 13.8456em;
-* width : 13.50 em;
 }
 
 .yui-t4 #yui-main .yui-b {
     margin-right: 14.8456em;
-* margin-right : 14.55 em;
 }
 
 .yui-t5 .yui-b {
     float: right;
     width: 18.4615em;
-* width : 18.00 em;
 }
 
 .yui-t5 #yui-main .yui-b {
     margin-right: 19.4615em;
-* margin-right : 19.125 em;
 }
 
 .yui-t6 .yui-b {
     float: right;
     width: 23.0769em;
-* width : 22.50 em;
 }
 
 .yui-t6 #yui-main .yui-b {
     margin-right: 24.0769em;
-* margin-right : 23.62 em;
 }
 
 .yui-t7 #yui-main .yui-b {
@@ -258,11 +232,6 @@ width:
     margin-left: 1.99%;
 }
 
-.yui-gb .yui-u {
-* margin-left : 1.9 %;
-* width : 31.9 %;
-}
-
 .yui-gc div.first, .yui-gd .yui-u {
     width: 66%;
 }
@@ -285,7 +254,6 @@ width:
 
 .yui-g .yui-g .yui-u, .yui-gb .yui-g .yui-u, .yui-gc .yui-g .yui-u, .yui-gd .yui-g .yui-u, .yui-ge .yui-g .yui-u, .yui-gf .yui-g .yui-u {
     width: 49%;
-* width : 48.1 %;
 * margin-left : 0;
 }
 
@@ -295,7 +263,6 @@ width:
 
 .yui-g .yui-gb div.first, .yui-gb .yui-gb div.first {
 * margin-right : 0;
-* width : 32 %;
     _width: 31.7%;
 }
 
@@ -304,7 +271,6 @@ width:
 }
 
 .yui-gb .yui-g div.first {
-* margin-right : 4 %;
     _margin-right: 1.3%;
 }
 
@@ -313,7 +279,6 @@ width:
 }
 
 .yui-gb .yui-gb .yui-u, .yui-gb .yui-gc .yui-u {
-* margin-left : 1.8 %;
     _margin-left: 4%;
 }
 
@@ -322,12 +287,10 @@ width:
 }
 
 .yui-gb .yui-gd .yui-u {
-* width : 66 %;
     _width: 61.2%;
 }
 
 .yui-gb .yui-gd div.first {
-* width : 31 %;
     _width: 29.5%;
 }
 
@@ -357,7 +320,6 @@ width:
 }
 
 .yui-gc .yui-g .yui-u, .yui-gd .yui-g .yui-u {
-* width : 48.1 %;
 * margin-left : 0;
 }
 
@@ -386,12 +348,10 @@ width:
 }
 
 .yui-gb .yui-ge .yui-u, .yui-gb .yui-gf div.first {
-* width : 24 %;
     _width: 20%;
 }
 
 .yui-gb .yui-ge div.first, .yui-gb .yui-gf .yui-u {
-* width : 73.5 %;
     _width: 65.5%;
 }
 

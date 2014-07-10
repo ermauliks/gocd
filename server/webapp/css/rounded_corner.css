@@ -323,10 +323,6 @@ display: none;}
     bottom: -1px;
 }
 
-/* Make sure this container's style not be overwrited by other rule */
-.rounded-corner-grey-border {
-    /*border: 1px solid #929292;*/
-}
 
 .rounded-corner-grey-border b {
     width: 7px;

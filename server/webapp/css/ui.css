@@ -427,18 +427,8 @@ div:hover.pipeline {
     border-top: 1px solid #484537;
 }
 
-.pipeline-history > div:
-
-nth-child
-
-(
-odd
-
-)
-{
-background-color: #E7E1D1
-
-;
+.pipeline-history > div:nth-child(odd){
+    background-color: #E7E1D1;
 }
 
 .pipeline-history .header {

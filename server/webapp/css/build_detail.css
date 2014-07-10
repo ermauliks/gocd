@@ -265,7 +265,6 @@ ul.summary li strong {
 div.build_detail_container {
     padding: 0;
     zoom: 1;
-    _width : 95 %;
 }
 
 div.build_detail_container_content {
@@ -361,11 +360,6 @@ table#build-peroperties-table th {
 
 .collapsible_title {
     cursor: pointer;
-}
-
-div.sub_tab_container_content {
-    /*padding: 1em;*/
-    /*padding-top: 0.5em;*/
 }
 
 .material_revision {

@@ -796,7 +796,6 @@ h1 .divider,
 
 .build-cause-summary-container table {
     width: 100%;
-* width : 96 %;
     margin-top: 0;
     border-collapse: collapse;
     color: #FFF;
@@ -812,11 +811,11 @@ h1 .divider,
     border-bottom: 1px solid #bbbb93;
 }
 
-.build-cause-summary-container th last_highlight-true {
+.build-cause-summary-container th.last_highlight-true {
     color: #FFFF66;
 }
 
-.build-cause-summary-container th last_highlight-false {
+.build-cause-summary-container th.last_highlight-false {
     color: #FFFF66;
 }
 
@@ -873,7 +872,6 @@ h1 .divider,
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 0.5em;
-* z-index : - 1;
 }
 
 #pipeline-history .stage-link {
@@ -889,7 +887,6 @@ h1 .divider,
 }
 
 #pipeline-history a:hover.stage-link {
-    background-color: ;
     text-decoration: none;
 }
 
@@ -964,31 +961,6 @@ h1 .divider,
     zoom: 1;
 }
 
-/* Fix bug #1542, #1543 */
-.pipeline-history-container .c3,
-    .pipeline-history-container .c4,
-    .pipeline-config-container .c3,
-    .pipeline-config-container .c4 {
-* bottom : - 1 px;
-    _bottom: -2px;
-}
-
-.pipeline-history-container .c2,
-    .pipeline-history-container .c4,
-    .pipeline-config-container .c2,
-    .pipeline-config-container .c4 {
-* right : - 1 px;
-}
-
-.pipeline-history-container .stage-link .c2,
-    .pipeline-history-container .stage-link .c4,
-    .pipeline-config-container .stage-link .c2,
-    .pipeline-config-container .stage-link .c4 {
-* right : - 1 px;
-    _right: -2px;
-}
-
-/* Fix bug #1542, #1543 end */
 
 .pipeline-history-container .pipeline-history-header a,
     .pipeline-history-container .pipeline-history-header a:visited {

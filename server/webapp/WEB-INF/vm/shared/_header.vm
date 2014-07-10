@@ -47,7 +47,6 @@
     <link href="$req.getContextPath()/stylesheets/vm/layout_for_old_ui.css?#include("admin/admin_version.txt.vm")" rel="stylesheet" type="text/css"></link>
     <link href="$req.getContextPath()/stylesheets/vm/jef_override_for_old_ui.css?#include("admin/admin_version.txt.vm")" rel="stylesheet" type="text/css"></link>
     #end
-    <!--[if lte IE 7]><link href="$req.getContextPath()/css/ie_hacks.css?#include("admin/admin_version.txt.vm")" rel="stylesheet" type="text/css"></link><![endif]-->
     #if($extra_css_list)
     #foreach($css_name in $extra_css_list)
     <link href="$req.getContextPath()/css/${css_name}.css?#include("admin/admin_version.txt.vm")" rel="stylesheet" type="text/css"/>
