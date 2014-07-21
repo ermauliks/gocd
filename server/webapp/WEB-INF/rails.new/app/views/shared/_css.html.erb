@@ -18,14 +18,7 @@
 <!-- Structure css -->
 <%= stylesheet_link_tag "structure/application.css" %>
 
-<% if use_compressed_js? %>
-    <%= stylesheet_link_tag "plugins/plugins.css" %>
-<% else %>
-    <!-- Plugins css -->
-    <%= stylesheet_link_tag "plugins/treeview.css",
-                            "plugins/jquery.autocomplete.css"
-    %>
-<% end %>
+
 
 <% if use_compressed_js? %>
     <%= stylesheet_link_tag "patterns/patterns.css" %>
@@ -66,9 +59,6 @@
                             "views/backup.css",
                             "views/comparison.css",
                             "views/config_server.css",
-                            "views/environments.css",
-                            "views/gadgets_pipeline.css",
-                            "views/pipelines.css",
                             "views/shared.css",
                             "views/stages.css",
                             "views/users.css"]
@@ -99,6 +89,8 @@
             "css_sass/components/tables.css",
             "css_sass/components/treenav.css",
             "css_sass/components/wizard.css",
+            "css_sass/components/lib/jquery.autocomplete.css",
+            "css_sass/components/lib/treeview.css",
             "css_sass/gadgets/breadcrumb.css",
             "css_sass/gadgets/buttons.css",
             "css_sass/gadgets/button-groups.css",
