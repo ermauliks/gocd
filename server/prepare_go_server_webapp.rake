@@ -217,7 +217,7 @@ task :create_all_css do
   main_dir = "target/webapp/stylesheets/"
   yui_compress_all(YUI_CSS_OUTPUT, main_dir, "*.css")
   File.open("target/all.css", "w") do |handle|
-    ["main.css", "layout.css", "structure.css", "ie_hacks.css", "module.css"].each do |file|
+    ["main.css", "layout.css", "structure.css", "module.css"].each do |file|
       merge(handle, File.join(main_dir, file))
     end
   end
