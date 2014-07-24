@@ -17,7 +17,6 @@
 /**
  * Titles.css
  */
- 
 
 /**
  * TABLE OF CONTENTS
@@ -25,7 +24,6 @@
  * =ENTITY_TITLES
  * =! MISC NEEDS MIGRATION
  */
-
 
 /**
  * =ENTITY_TITLES
@@ -38,37 +36,41 @@ h2.entity_title {
     margin-bottom: 10px;
     padding: 0 0 10px 0;
 }
-.pipelines h2.entity_title{
+
+.pipelines h2.entity_title {
     font-size: 20px;
 }
 
-.environment h2.entity_title,.pipeline_group h2.entity_title {
+.environment h2.entity_title, .pipeline_group h2.entity_title {
     background-position: -12px -10px;
     line-height: 30px;
     padding-left: 35px;
 }
 
-.environment h2.entity_title,.pipeline_group h2.entity_title {
+.environment h2.entity_title, .pipeline_group h2.entity_title {
     background-image: url(../../images/g9/icons/icon_environments_24.png);
 }
+
 .pipeline_group h2.entity_title {
-  background-image: url(../../images/g9/icons/icon_pipelinegroup_24.png);
-}
-.template_group h2.entity_title {
-  background-image: url(../../images/g9/icons/icon_pipeline_template_24.png);
-  background-position: -12px -10px;
-  padding-left: 35px;
-}
-h3.entity_title {
-  background-repeat: no-repeat;
-  padding: 5px 0 10px 30px;
-  margin: 0;
-}
-.pipeline_header h3.entity_title {
-  background-image: url(../../images/g9/icons/icon_pipeline_24.png);
-  background-position: -12px -10px;
+    background-image: url(../../images/g9/icons/icon_pipelinegroup_24.png);
 }
 
+.template_group h2.entity_title {
+    background-image: url(../../images/g9/icons/icon_pipeline_template_24.png);
+    background-position: -12px -10px;
+    padding-left: 35px;
+}
+
+h3.entity_title {
+    background-repeat: no-repeat;
+    padding: 5px 0 10px 30px;
+    margin: 0;
+}
+
+.pipeline_header h3.entity_title {
+    background-image: url(../../images/g9/icons/icon_pipeline_24.png);
+    background-position: -12px -10px;
+}
 
 /**
  * =! MISC NEEDS MIGRATION

@@ -18,29 +18,6 @@
 <!-- Structure css -->
 <%= stylesheet_link_tag "structure/application.css" %>
 
-
-
-<% if use_compressed_js? %>
-    <%= stylesheet_link_tag "patterns/patterns.css" %>
-<% else %>
-    <!-- Patterns css -->
-    <% styles =           [ "patterns/forms.css",
-                            "patterns/messages.css",
-                            "patterns/modalbox.css",
-                            "patterns/status_visualizations.css",
-                            "patterns/titles.css",
-                            "patterns/tooltips.css",
-                            "patterns/wizard_steps.css"]
-
-        File.open(File.join(css_dir, 'patterns/patterns.css'), 'w') do |all_css|
-            styles.each do |style|
-              all_css.puts(File.read(File.join(css_dir, style)))
-            end
-        end
-    %>
-    <%= stylesheet_link_tag "patterns/patterns.css" %>
-<% end %>
-
 <!-- Views css -->
 <% if use_compressed_js? %>
     <%= stylesheet_link_tag "views/views.css" %>
@@ -98,7 +75,7 @@
             "css_sass/gadgets/dropdowns.css",
             "css_sass/gadgets/forms.css",
             "css_sass/gadgets/layouts.css",
-            "css_sass/gadgets/modals.css",
+            "css_sass/gadgets/modalbox.css",
             "css_sass/gadgets/popovers.css",
             "css_sass/gadgets/progress-bars.css",
             "css_sass/gadgets/scaffolding.css",
@@ -113,6 +90,9 @@
             "css_sass/go-pages/admin/templates.css",
             "css_sass/go-pages/vsm.css",
             "css_sass/go-pages/history-panel.css",
+            "css_sass/go-pages/status_visualizations.css",
+            "css_sass/go-pages/titles.css",
+            "css_sass/go-pages/wizard_steps.css",
             "css_sass/go-pages/pipeline.css"
         ]
 

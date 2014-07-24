@@ -1,0 +1,134 @@
+.flash {
+  background: #dceffb;
+  a {
+    color: #6698ff;
+    &:hover {
+      color: #8ab0ff;
+    }
+  }
+  p {
+    font-size: 12px;
+    color: #777777;
+    font-weight: bold;
+    background: url(../../images/andare/ico-16x16-alerts.png) no-repeat scroll 10px 6px;
+    padding: 7px 10px 7px 36px;
+    line-height: 16px;
+    &.warning {
+      background: url(../../images/andare/ico-16x16-alerts.png) no-repeat scroll 10px -94px #fbf3dc;
+    }
+    &.error {
+      background: url(../../images/andare/ico-16x16-alerts.png) no-repeat scroll 10px -194px #f8d1d8;
+    }
+    &.success {
+      background: url(../../images/andare/ico-16x16-alerts.png) no-repeat scroll 10px -294px #daefc8;
+    }
+  }
+}
+
+//migrated from patterns/messages.css
+.warnings, .information {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #777777;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 7px 10px 7px 36px;
+  line-height: 16px;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(../../images/andare/ico-16x16-alerts.png);
+}
+
+.warnings {
+  background-position: 10px -94px;
+  background-color: #fbf3dc;
+}
+
+.information {
+  background-position: 10px 6px;
+  background-color: #dceffb;
+}
+
+.notification .message {
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 0 0 10px 0;
+  padding: 15px 15px 15px 45px;
+}
+
+.notification .warning {
+  background-color: #EEE;
+  background-image: url(../../images/g9/icons/icon_warning_24.png);
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+.notification .error {
+  background-color: #EEE;
+  background-image: url(../../images/g9/icons/icon_error_24.png);
+  color: #000;
+}
+
+.notification .info {
+  background-color: #EEE;
+  background-image: url(../../images/g9/icons/icon_info_24.png);
+  color: #000;
+}
+
+/**
+ * =MISC
+ */
+
+.error_message {
+  background: url(../../images/g9/icons/icon_error_16.png) no-repeat;
+  display: inline-block;
+  padding: 2px 2px 2px 20px;
+}
+
+.inline-message {
+  background-color: transparent;
+  background-position: 11px 4px !important;
+  border: 0 none;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 5px 5px 5px 30px !important;
+  vertical-align: top;
+}
+
+.information strong {
+  font-weight: bold;
+}
+
+.alert {
+  background-color: #FFF1A8;
+}
+
+.ok_message {
+  background: url(../../images/g9/icons/icon_pass_16.png) no-repeat;
+  display: inline-block;
+  padding: 2px 2px 2px 20px;
+}
+
+/*404 error html*/
+.pagenotfound {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  height: 150px;
+  right: 0;
+  left: 0;
+}
+
+.biggest {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
