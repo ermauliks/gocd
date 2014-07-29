@@ -197,7 +197,7 @@ end
 
 # css optimization
 CSS_DIRS = ["target/webapp/css", "target/webapp/stylesheets"]
-COMPRESSED_ALL_DOT_CSS = ["target/plugins.css", "target/patterns.css", "target/views.css", "target/css_sass.css", "target/vm.css"]
+COMPRESSED_ALL_DOT_CSS = ["target/plugins.css", "target/views.css", "target/css_sass.css"]
 
 def expand_css_wildcard wildcard
   Dir.glob("target/webapp/stylesheets/" + wildcard)
@@ -224,16 +224,14 @@ task :create_all_css do
 
   parent_directory = "target/webapp/stylesheets"
   css_directories_to_be_compressed = [{:dir => "plugins", :perform => Proc.new do |d| yui_compress_all(YUI_CSS_OUTPUT, File.join(parent_directory, d), "*.css") end},
-                                      {:dir => "patterns", :perform => Proc.new do |d| yui_compress_all(YUI_CSS_OUTPUT, File.join(parent_directory, d), "*.css") end},
                                       {:dir => "views", :perform => Proc.new do |d| yui_compress_all(YUI_CSS_OUTPUT, File.join(parent_directory, d), "*.css") end},
-                                      {:dir => "css_sass", :perform => Proc.new do |d| yui_compress_all(YUI_CSS_OUTPUT, File.join(parent_directory, d), "**/*.css") end},
-                                      {:dir => "vm", :perform => Proc.new do |d| yui_compress_all(YUI_CSS_OUTPUT, File.join(parent_directory, d), "*.css") end}]
+                                      {:dir => "css_sass", :perform => Proc.new do |d| yui_compress_all(YUI_CSS_OUTPUT, File.join(parent_directory, d), "**/*.css") end}]
 
   css_directories_to_be_compressed.each do |tuple|
     tuple[:perform].call(tuple[:dir])
   end
 
-  css_to_be_merged = ["plugins/*.css", "patterns/*.css", "views/*.css", "css_sass/**/*.css", "vm/**/*.css"]
+  css_to_be_merged = ["plugins/*.css", "views/*.css", "css_sass/**/*.css"]
   css_to_be_merged.each_with_index do |wildcard, index|
     matched_paths = expand_css_wildcard(wildcard)
     File.open(COMPRESSED_ALL_DOT_CSS[index], "w") do |handle|

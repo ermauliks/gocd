@@ -22,9 +22,7 @@ a#add-new-pipeline-button {
 
 
 /* Fix a IE7 bug */
-.bd-container {
-    *padding-top: 0.75em;
-}
+
 #content_area textarea {
     width: 99.8%;
     background-color: #fffacd;

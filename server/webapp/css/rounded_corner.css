@@ -131,8 +131,6 @@ display: none;}
 .rounded-corner-for-pipe-conf-stage,
 .rounded-corner-for-tab-container {
     background: #FFFFFF;
-    /*margin: 1em;*/
-    padding: 0.3em;
     position: relative;
     overflow: visible;
     zoom: 1;
@@ -169,7 +167,7 @@ display: none;}
 }
 
 .rounded-corner-for-tab-container {
-    
+    margin: 15px;
 }
 
 .rounded-corner-for-body b

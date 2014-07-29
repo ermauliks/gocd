@@ -749,19 +749,6 @@ button#signin2 span {
 
 
 /* main content */
-#bd {
-    zoom: 1;
-}
-
-.bd-container {
-    /*margin: 0.8em 0;*/
-    padding: 0;
-}
-
-.bd-content-container {
-    /*margin: 0.8em 1em;*/
-}
-
 .bd-container .bd-c-wrapper {
     padding: 0.5em 1em;
     zoom: 1;/* this hack is to fix contents is out of boundries bug under IE6 */
@@ -1071,13 +1058,8 @@ a.has-icon, span.has-icon  {
     line-height: 1.5em;
 }
 
-#yui-main {
-    border-top: 1px solid #6e6e60;
-}
 
 #yui-main h1 {
-    /*padding: 0.416em 1em;*/
-    /*margin: 0.416em 1em;*/
     padding: 0;
     margin: 0;
     font-weight: bold;
@@ -1192,11 +1174,6 @@ a.has-icon, span.has-icon  {
 {
     padding-bottom: 1em;
     text-align: center;
-}
-
-.pages a
-{
-    /*color: #4B220E;*/
 }
 
 .page-num
@@ -1412,17 +1389,9 @@ a:hover#link-to-this-page {
  * JMM - Old UI Hacks to match 2.0 visual design
  */
 
-
-/* Add New Pipeline Page */
-.add_new_pipeline{
-    
-}
 .add_new_pipeline label{
     font-size: 24px;
     float: left;
-}
-.add_new_pipeline .operations{
-
 }
 .add_pipeline_admin_contents .content_wrapper_outer{
     margin-bottom: 1em;

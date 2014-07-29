@@ -30,19 +30,6 @@
   border-radius: 6px;
   border: 0;
   -moz-box-shadow: inset 0 0 4px #666;
-
-  .button, a.link_as_button {
-    height: 27px;
-  }
-
-  button.submit:hover,
-  a.link_as_button:hover,
-  button.submit:hover,
-  button.submit_hover,
-  a.link_as_button:hover,
-  a.link_as_button_hover {
-    height: 27px;
-  }
 }
 
 .admin_wrapper .form_buttons {
@@ -284,25 +271,6 @@ a.reset_button {
   background-color: #52b3e3 !important;
 }
 
-//*html button.submit{
-//    m: expression(this.onmouseover=new Function("this.className = 'submit_hover';"));
-//}
-//*html button.submit_hover{
-//    m: expression(this.onmouseout=new Function("this.className = 'submit';"));
-//}
-
-//*html a.link_as_button{
-//    width: 0;
-//}
-//*html a.link_as_button_hover{
-//    width: 0;
-//}
-//*html a.link_as_button_hover span{
-//    white-space: nowrap;
-//    display:inline-block;
-//    position: relative;
-//}
-
 button.submit.disabled,
 button.submit.disabled:hover {
   cursor: default;
@@ -470,11 +438,6 @@ button.submit_hover span img {
   float: right;
   margin-right: 0;
 }
-
-//*+html #agents_form .edit_panel .download_agent {
-//  padding-top: 8px;
-//  padding-bottom: 10px;
-//}
 
 #agents_form .edit_panel .download_agent span {
   text-transform: uppercase;

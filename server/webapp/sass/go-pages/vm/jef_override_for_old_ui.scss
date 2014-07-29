@@ -14,10 +14,6 @@
  * limitations under the License.
  *************************GO-LICENSE-END***********************************/
 
-* {
-    font-size: 12px;
-}
-
 #yui-main {
     min-width: 900px;
 }
@@ -35,8 +31,6 @@ a {
 /* remove padding and margin for background */
 
 
-
-
 /* old velocity stuff */
 #bd {
     padding: 0;
@@ -46,27 +40,6 @@ a {
     background-color: transparent;
     padding-top: 91px;
 }
-
-/* fix typography */
-
-
-
-/*
- * fake to get the header inside the rounded white box
- */
-
-
-/*
- * Application Navigation
- */
-
-
-
-
-
-/* new page header */
-
-
 
 /*
  * kill rounded corner graphics and other cruft
@@ -92,13 +65,8 @@ a {
  */
  
 
-#yui-main {
-    margin: 0;
-} 
-
 .container-in-body{
   border: 0;
-  
   position: relative;
   top: 0;
   left: 0;
@@ -110,24 +78,19 @@ a {
 #yui-main .content_wrapper_inner,
 .my-cruise-rounded-container,
 #server-page .rounded-corner-for-pipeline {
-    border: 0;
     background-color: #FFF;
-    padding: 0 15px 15px 15px;
 }
+//.bd-container{
+//  padding: 15px;
+//}
 
-
-.admin-rounded-container,
-.my-cruise-rounded-container,
-#server-page .rounded-corner-for-pipeline {
-    padding-top: 15px;
+#yui-main {
+  margin: 0;
 }
 
 #yui-main .content_wrapper_inner {
-    padding: 15px;    
+    padding: 15px;
 }
-
-
-
 
 #pipeline-history {
     background-color: #FFF;
@@ -137,12 +100,6 @@ a {
     padding: 15px 0 0 0;
     margin: 0;
 }
-
-
-
-
-
-/* fake h2 for my cruise */
 
 
 .wizard h1,
@@ -239,29 +196,6 @@ ol#pipelines  {
 
 
 
-/**
- * Jobs
- */
- 
-
-
-
-
-
-
-
-/*
- * Warning icon
- */
-
-
-
-/*
- * Admin
- */
-
-
-
 .build h4 {
     background-position: center;
     padding: 0.25em 1em 0.25em 25px;
@@ -352,15 +286,5 @@ ol#pipelines  {
 .sub-tabs-container li.updated a {
     background: transparent url(../../images/icon-12-alert.png) no-repeat 100% 50%;
 }
-
-#yui-main h1, h2, h3, h4 {
-    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-    font-weight: 500;
-}
-#yui-main h1, h1 strong{
-    font-size: 2em;
-    font-weight: 400;
-}
-
 
 

@@ -1903,7 +1903,7 @@ input.small_text_field {
   box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-/*  line-height: 11px;*/
+    height:27px;
   font-size: 11px !important;
   padding: 7px 10px;
 }

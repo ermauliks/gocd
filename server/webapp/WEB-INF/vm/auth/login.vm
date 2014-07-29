@@ -23,7 +23,7 @@
     <link href="$req.getContextPath()/css/reset-fonts-grids-fix.css?#include("admin/admin_version.txt.vm")" rel="stylesheet" type="text/css"></link>
     <link href="$req.getContextPath()/css/rounded_corner.css?#include("admin/admin_version.txt.vm")" rel="stylesheet" type="text/css"></link>
     <link href="$req.getContextPath()/css/application.css?#include("admin/admin_version.txt.vm")" rel="stylesheet" type="text/css"></link>
-    <link href="$req.getContextPath()/stylesheets/vm/structure_for_old_ui.css?#include("admin/admin_version.txt.vm")" rel="stylesheet" type="text/css"></link>
+    <link href="$req.getContextPath()/stylesheets/css_sass/css_sass.css?#include("admin/admin_version.txt.vm")" rel="stylesheet" type="text/css"></link>
     <script type="text/javascript">var contextPath = "$req.getContextPath()";</script>
     <script src="$req.getContextPath()/compressed/all.js?#include("admin/admin_version.txt.vm")" type="text/javascript"></script>
     <style type="text/css">

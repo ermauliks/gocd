@@ -22,22 +22,22 @@
 <% if use_compressed_js? %>
     <%= stylesheet_link_tag "views/views.css" %>
 <% else %>
-    <% styles =           [ "views/admin_materials_shared.css",
-                            "views/admin_pipeline_groups.css",
-                            "views/admin_pipelines_snippet.css",
-                            "views/admin_pipelines.css",
-                            "views/admin_stages.css",
-                            "views/admin_tasks_exec.css",
-                            "views/admin_templates.css",
-                            "views/admin_user_roles.css",
-                            "views/shared_go_license_about_to_expire.css",
-                            "views/agents.css",
-                            "views/backup.css",
-                            "views/comparison.css",
-                            "views/config_server.css",
-                            "views/shared.css",
-                            "views/stages.css",
-                            "views/users.css"]
+    <% styles =  [ "views/admin_materials_shared.css",
+                   "views/admin_pipeline_groups.css",
+                   "views/admin_pipelines_snippet.css",
+                   "views/admin_pipelines.css",
+                   "views/admin_stages.css",
+                   "views/admin_tasks_exec.css",
+                   "views/admin_templates.css",
+                   "views/admin_user_roles.css",
+                   "views/shared_go_license_about_to_expire.css",
+                   "views/agents.css",
+                   "views/backup.css",
+                   "views/comparison.css",
+                   "views/config_server.css",
+                   "views/shared.css",
+                   "views/stages.css",
+                   "views/users.css"]
 
         File.open(File.join(css_dir, 'views/views.css'), 'w') do |all_css|
             styles.each do |style|
@@ -93,7 +93,11 @@
             "css_sass/go-pages/status_visualizations.css",
             "css_sass/go-pages/titles.css",
             "css_sass/go-pages/wizard_steps.css",
-            "css_sass/go-pages/pipeline.css"
+            "css_sass/go-pages/pipeline.css",
+            "css_sass/go-pages/vm/jef_override_for_old_ui.css",
+            "css_sass/go-pages/vm/layout_for_old_ui.css",
+            "css_sass/go-pages/vm/rails_like.css",
+            "css_sass/go-pages/vm/structure_for_old_ui.css"
         ]
 
         File.open(File.join(css_dir, 'css_sass/css_sass.css'), 'w') do |all_css|
