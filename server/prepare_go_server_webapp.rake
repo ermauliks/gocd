@@ -217,7 +217,7 @@ task :create_all_css do
   main_dir = "target/webapp/stylesheets/"
   yui_compress_all(YUI_CSS_OUTPUT, main_dir, "*.css")
   File.open("target/all.css", "w") do |handle|
-    ["main.css", "layout.css", "structure.css", "module.css"].each do |file|
+    ["main.css", "layout.css", "module.css"].each do |file|
       merge(handle, File.join(main_dir, file))
     end
   end
@@ -241,9 +241,8 @@ task :create_all_css do
     end
   end
 
-  # compress each file in css/ & stylesheets/structure/
+  # compress each file in css/
   yui_compress_all(YUI_CSS_OUTPUT, "target/webapp/css", "*.css")
-  yui_compress_all(YUI_CSS_OUTPUT, "target/webapp/stylesheets/structure", "*.css")
 end
 
 task :copy_compressed_css_to_webapp do

@@ -51,12 +51,6 @@
   line-height: 1;
 }
 
-/*html {
-  height: 100%;
-}*/
-
-
-
 /**
  * =TITLES
 **/
@@ -76,26 +70,6 @@ h3{
   font-size:14px;
   margin-bottom:0.5em;
 }
-/*
-h2 span {
-  font-weight:700;
-}
-.heading {
-  border-bottom:1px solid #CCCCCC;
-  margin:10px 0;
-  padding:0 0 10px;
-}
-.heading h1 {
-  border:0;
-  color:#E57700;
-  margin:0;
-  padding:0;
-}*/
-
-
-
-
-
 
 /**
  * =FORMS
@@ -198,42 +172,7 @@ a{
 a:hover{
     color: #2980EC;
 } 
-/*
 
-a.icon {
-  background-repeat: no-repeat;
-  background-position:  left center;
-  display: inline-block;
-  padding:  3px 3px 3px 21px;
-  line-height: 16px;
-  color: #333;
-  font-size: 12px;
-  height: auto;
-  width: auto;
-  margin-right: 10px;
-  zoom: 1;
-  *display: inline;
-  vertical-align: top;
-}
-a.delete_link {
-
-}
-a.edit_link {
-
-}
-a.add_link {
-
-}
-a.arrow_link {
-
-}
-a.delete_parent {
-  display: block;
-  height: 16px;
-  width: 16px;
-  cursor: pointer;
-}
-*/
 /**
  * =LISTS
 **/
@@ -245,16 +184,6 @@ li{
   float: left;
   list-style: none;
 }
-
-/**
- * =PARAGRAPHS
- */
-/*
-p {
-  line-height: 130%;
-  margin-bottom: 10px;
-}
-*/
 
 
 /**
@@ -271,23 +200,6 @@ table td {
 }
 
 
-/*
-table {
-  width:100%;
-}
-th, td {
-  border-collapse:collapse;
-  border:1px solid #CCC;
-  color:#333333;
-  padding:8px 10px;
-  vertical-align:top;
-}
-th {
-  background-color:#EEEEEE;
-  font-weight:bold;
-}
-*/
-
 
 /**
  * =HELPER_CLASSES
@@ -295,69 +207,6 @@ th {
 .hidden {
   display: none;
 }
- 
-/**
- * =LAYOUTS
- */
-/**
- * ==APPLICATION
- */
-/*
-#header {
-  background: #FF7800;
-}
-#header_wrapper {
-  min-height: 61px;
-  padding: 10px 10px 0 10px;
-}
-#header .plan_header .logo {
-  display: block;
-  float: left;
-  height: 45px;
-  width: 135px;
-}
-#header .plan_header a.plan_name {
-  color: #FFF;
-  float: left;
-  font-size: 21px;
-  font-family: "Helvetica Neue";
-  font-weight: 300;
-  line-height: .75;
-  margin-top: 14px;
-}
-.content {
-  min-height: 400px;
-  padding: 15px;
-  background:none repeat scroll 0 0 #FFFFFF;
-}
-#ft {
-  padding: 10px;
-  font-size: 11px;
-  overflow: hidden;
-  border-top: 1px solid #CCC;
-  color: #666;
-}
-#ft a {
-  color: #333;
-}
-#ft #copyright {
-  float: left;
-}
-#ft #support {
-  float: right;
-}
-*/
-
-
-
-/**
- * ==PARTIALS
- */
-/**
- * ===???
- */
-
-
 
 /**
  * =FLOAT CLEARING
@@ -375,13 +224,6 @@ th {
   visibility: hidden;
 }
 
-/**
- * ==IE7 FLOAT CLEARING HACK 
- */
-*+html .clear_float {
-  display: inline-block;
-  zoom: 1;
-}
 
 .back_to_top{
     padding: 10px;

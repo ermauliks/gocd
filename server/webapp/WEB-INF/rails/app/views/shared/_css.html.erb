@@ -7,7 +7,7 @@
     <%= stylesheet_link_tag "all.css" %>
 <% else %>
     <!-- LEGACY Structure css, TODO: migrate these to structure/application.css and patterns -->
-    <%= stylesheet_link_tag "main", "layout", "structure"%>
+    <%= stylesheet_link_tag "main", "layout"%>
     <!-- END - LEGACY Structure css, TODO: migrate these to structure/application.css and patterns -->
 
     <!-- LEGACY Module pieces css, TODO: migrate these to patterns/plugins/views-->
@@ -16,7 +16,7 @@
 <% end %>
 
 <!-- Structure css -->
-<%= stylesheet_link_tag "structure/application.css" %>
+<%= stylesheet_link_tag "css_sass/global/application.css" %>
 
 <!-- Views css -->
 <% if use_compressed_js? %>
@@ -96,7 +96,6 @@
             "css_sass/go-pages/pipeline.css",
             "css_sass/go-pages/vm/jef_override_for_old_ui.css",
             "css_sass/go-pages/vm/layout_for_old_ui.css",
-            "css_sass/go-pages/vm/rails_like.css",
             "css_sass/go-pages/vm/structure_for_old_ui.css"
         ]
 
