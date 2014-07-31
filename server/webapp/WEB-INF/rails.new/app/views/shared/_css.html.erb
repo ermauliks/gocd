@@ -22,15 +22,7 @@
 <% if use_compressed_js? %>
     <%= stylesheet_link_tag "views/views.css" %>
 <% else %>
-    <% styles = [ "views/admin_materials_shared.css",
-                  "views/admin_pipeline_groups.css",
-                  "views/admin_pipelines_snippet.css",
-                  "views/admin_pipelines.css",
-                  "views/admin_stages.css",
-                  "views/admin_tasks_exec.css",
-                  "views/admin_templates.css",
-                  "views/admin_user_roles.css",
-                  "views/shared_go_license_about_to_expire.css",
+    <% styles = [ "views/shared_go_license_about_to_expire.css",
                   "views/agents.css",
                   "views/backup.css",
                   "views/comparison.css",

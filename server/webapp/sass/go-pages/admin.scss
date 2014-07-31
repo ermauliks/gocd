@@ -342,3 +342,271 @@ select#select_template {
 .plugin-data {
     margin-left: 70px;
 }
+
+
+/*from admin_user_roles.css*/
+.new_role_form {
+  margin-top: 10px;
+}
+
+.deletion_warning div {
+  clear: both;
+}
+
+.message {
+  padding: 5px;
+}
+
+.message ol.groups, .message ol.stages {
+  margin: 5px 0 0 30px;
+  list-style: decimal;
+}
+
+.message li {
+  clear: both;
+  list-style: decimal;
+  margin: 1px;
+}
+
+.message .confirmation_message {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.deletion_warning .usages {
+  padding: 10px 10px 0 10px;
+  clear: both;
+}
+
+.deletion_warning .usage .roles {
+  color: #999;
+  font-style: italic;
+}
+
+/*from admin_templates.css*/
+
+#pipelines_to_extract_from {
+  margin-top:5px;
+}
+
+/*from admin_tasks_exec.css*/
+
+.gist_panel {
+  float: right;
+  width: 280px;
+  min-height: 190px;
+  max-height: 290px;
+  border-left: 1px #CCC solid;
+  padding-left: 10px;
+}
+
+#job_tasks .gist_panel{
+  height: 230px;
+}
+
+.lookup_command{
+  width:  240px !important;
+}
+
+.on_cancel_task .gist_panel {
+  width: 280px;
+  height: 250px;
+}
+
+.gist_panel .invalid_snippets h5 {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.gist_panel .invalid_snippets ul, .gist_panel .invalid_snippets li {
+  float: none;
+}
+
+.gist_panel .invalid_snippets .snippets {
+  background: #F6F6F6;
+  padding: 5px;
+  max-height: 110px;
+  overflow-y: auto;
+}
+
+.on_cancel_task .gist_panel .invalid_snippets .snippets, #job_tasks .snippets{
+  max-height: 120px;
+}
+
+#task .fieldset{
+  overflow: auto;
+}
+
+.gist_panel .invalid_snippets .command_name {
+  display: block;
+  line-height: 14px;
+  padding: 3px;
+  font-weight:bold;
+}
+
+.gist_panel .invalid_snippets ul li{
+  border-bottom: 1px #DDD solid;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.gist_panel .invalid_snippets ul li:last-child{
+  border-bottom:0 none;
+  margin-bottom:0;
+}
+
+.gist_panel .invalid_snippets .message {
+  clear: both;
+  display: block;
+  line-height: 14px;
+  padding: 2px 5px 1px
+}
+
+.code_text{
+  font-family: courier new, monospace;
+}
+
+
+/*snippet details*/
+
+.gist_panel .snippet_details>div {
+  clear: both;
+  overflow: hidden;
+  padding: 5px 0;
+  margin-left: 10px;
+  line-height: 1.5em;
+  margin-right: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.gist_panel .snippet_details>div:last-child {
+  border-bottom: 0 none;
+}
+
+.gist_panel .snippet_details {
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.gist_panel .snippet_details .name {
+  font-weight: bold;
+}
+
+.gist_panel .snippet_details .author, .gist_panel .snippet_details .description .key{
+  float: left;
+  font-weight: bold;
+  color: #999999;
+}
+
+.gist_panel .snippet_details .description .key {
+  display: block;
+  float: none;
+  clear:both;
+}
+
+.gist_panel .snippet_details .more-info {
+  float: right;
+}
+
+/* from admin_stages.css */
+#stage_edit_form .checkbox_row .fieldWithErrors {
+  display: inline;
+}
+
+//from admin_pipelines.css
+#pipeline_snippet_view #view_group, #pipeline_snippet_edit #edit_group {
+  margin-left: 210px;
+}
+
+#pipeline_snippet_view #view_group a.edit.link_as_button {
+  float: right;
+  background-color: #3399cc;
+  /*margin: 0px 5px 15px;*/
+}
+
+#pipeline_snippet_edit #edit_group .form_buttons .submit{
+  float: left;
+}
+#pipeline_snippet_view .form_buttons, #pipeline_snippet_edit .form_buttons{
+  background-color: #FFFFFF;
+  float: right;
+  margin: 5px 0px 10px 0px;
+  -moz-box-shadow: none;
+}
+
+#pipeline_snippet_edit #content_container_for_edit, #pipeline_snippet_view #content_container {
+  clear: right;
+  border: 1px solid #CCCCCC;
+  overflow: auto;
+  padding: 5px;
+  height: 500px;
+}
+
+#pipeline_snippet_edit #content_container_for_edit{
+  background-color: #FFFACD;
+}
+
+/**
+ * =PARTIALS
+**/
+
+#modifiable_groups {
+  width: 200px;
+  float: left;
+}
+
+#modifiable_groups ul {
+  width: 200px;
+  margin-top: 34px;
+}
+
+#modifiable_groups li {
+  line-height: 25px;
+  padding: 0px 5px;
+  border-bottom: 1px dotted #CCCCCC;
+  display: block;
+  width: 190px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#modifiable_groups li.selected {
+  background-color: #D2EBF0;
+  color: #333;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+//from admin_pipelines.css
+
+#pipeline_edit_form .inline_instruction {
+  margin: 7px 0px 0px 23px;
+}
+
+//from admin_pipeline_groups.css
+
+#tab-content-of-pipeline-groups .resources_selector.scrollable_panel {
+  max-height: 17em;
+  max-width: 17em;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+//from admin_materials_shared.css
+
+.material_options.form_item_block input[type="checkbox"],
+.material_options .fieldWithErrors input.form_input{
+  float: left;
+}
+
+.material_options label {
+  float:left;
+  margin-top: 5px;
+}
+
+.material_options .form_error{
+  margin-top: 5px;
+}
