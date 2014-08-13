@@ -18,28 +18,6 @@
 <!-- Structure css -->
 <%= stylesheet_link_tag "css_sass/global/application.css" %>
 
-<!-- Views css -->
-<% if use_compressed_js? %>
-    <%= stylesheet_link_tag "views/views.css" %>
-<% else %>
-    <% styles = [ "views/shared_go_license_about_to_expire.css",
-                  "views/agents.css",
-                  "views/backup.css",
-                  "views/comparison.css",
-                  "views/config_server.css",
-                  "views/shared.css",
-                  "views/stages.css",
-                  "views/users.css"]
-
-        File.open(File.join(css_dir, 'views/views.css'), 'w') do |all_css|
-            styles.each do |style|
-              all_css.puts(File.read(File.join(css_dir, style)))
-            end
-        end
-    %>
-    <%= stylesheet_link_tag "views/views.css" %>
-<% end %>
-
 <!-- less-to-css -->
 <% if use_compressed_js? %>
     <%= stylesheet_link_tag "css_sass/css_sass.css" %>
@@ -76,19 +54,26 @@
             "css_sass/global/layout.css",
             "css_sass/global/responsive.css",
             "css_sass/global/typography.css",
-            "css_sass/go-pages/agent.css",
             "css_sass/go-pages/admin.css",
-            "css_sass/go-pages/plugin-infra.css",
-            "css_sass/go-pages/admin/templates.css",
-            "css_sass/go-pages/vsm.css",
+            "css_sass/go-pages/agent.css",
+            "css_sass/go-pages/backup.css",
+            "css_sass/go-pages/comparison.css",
+            "css_sass/go-pages/config_server.css",
             "css_sass/go-pages/history-panel.css",
+            "css_sass/go-pages/pipeline.css",
+            "css_sass/go-pages/plugin-infra.css",
+            "css_sass/go-pages/shared.css",
+            "css_sass/go-pages/shared_go_license_about_to_expire.css",
+            "css_sass/go-pages/stages.css",
             "css_sass/go-pages/status_visualizations.css",
             "css_sass/go-pages/titles.css",
+            "css_sass/go-pages/users.css",
+            "css_sass/go-pages/vsm.css",
             "css_sass/go-pages/wizard_steps.css",
-            "css_sass/go-pages/pipeline.css",
             "css_sass/go-pages/vm/jef_override_for_old_ui.css",
             "css_sass/go-pages/vm/layout_for_old_ui.css",
-            "css_sass/go-pages/vm/structure_for_old_ui.css"
+            "css_sass/go-pages/vm/structure_for_old_ui.css",
+            "css_sass/go-pages/admin/templates.css",
         ]
 
         File.open(File.join(css_dir, 'css_sass/css_sass.css'), 'w') do |all_css|
