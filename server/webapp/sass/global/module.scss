@@ -190,7 +190,7 @@
 * Agents Form
 */
 #agents_form input.show_panel {
-    background: url(../images/down_arrow.png) 97% 50% #E4E4E4 no-repeat;
+    background: url(../../images/down_arrow.png) 97% 50% #E4E4E4 no-repeat;
     padding-right: .6667em;
     margin-left: 2em;
 }
@@ -289,7 +289,7 @@ input.new_resource {
 .agents_table tr.Lostcontact td.status,
 .agents_table tr.Lost td.status,
 {
-    background: url(../images/g9/icons/icon_question_16.png) no-repeat 5px 50%;
+    background: url(../../images/g9/icons/icon_question_16.png) no-repeat 5px 50%;
     padding-left: 25px;
 }
 
@@ -350,7 +350,7 @@ input.new_resource {
 }
 
 .pipeline_bundle .pipeline .warn_message {
-    background: url(../images/g9/icons/icon_error_16.png) no-repeat scroll 0 50% transparent;
+    background: url(../../images/g9/icons/icon_error_16.png) no-repeat scroll 0 50% transparent;
     float: right;
     font-weight: normal;
     padding: 3px 0 3px 20px;
@@ -404,12 +404,12 @@ input.new_resource {
 }
 
 .compare_pipeline a {
-    background: url("../images/g9/icons/icon_compare_16.png") transparent no-repeat;
+    background: url("../../images/g9/icons/icon_compare_16.png") transparent no-repeat;
     padding-left: 20px;
 }
 
 .compare_pipeline a:hover {
-    background: url("../images/g9/icons/icon_compare_16_hover.png") transparent no-repeat;
+    background: url("../../images/g9/icons/icon_compare_16_hover.png") transparent no-repeat;
 }
 
 .compare_pipeline.dashboard a {
@@ -417,7 +417,7 @@ input.new_resource {
 }
 
 .compare_pipeline.bisect{
-    background: url("../images/g9/icons/icon_compare_16.png") transparent no-repeat;
+    background: url("../../images/g9/icons/icon_compare_16.png") transparent no-repeat;
     opacity: 0.5;
 }
 
@@ -426,17 +426,17 @@ input.new_resource {
 }
 
 input.compare_pipeline_input {
-    background: url("../images/g9/icon_search.png") transparent no-repeat right;
+    background: url("../../images/g9/icon_search.png") transparent no-repeat right;
     width: 338px;
     padding: 4px 8px 4px 4px;
 }
 
 input.compare_pipeline_input.ac_loading {
-    background-image: url('../images/g9/icons/spinny_white_16.gif');
+    background-image: url('../../images/g9/icons/spinny_white_16.gif');
 }
 
 .compare_pipeline label {
-    background: url("../images/g9/icons/icon_compare_16.png") transparent no-repeat;
+    background: url("../../images/g9/icons/icon_compare_16.png") transparent no-repeat;
     cursor: default;
     padding-left: 20px;
     opacity: 0.5;
@@ -533,7 +533,7 @@ input.compare_pipeline_input.ac_loading {
 .non_passing_tests .changes_button_wrapper button span,
 .non_passing_tests .changes_button_wrapper a {
     padding-right: 16px;
-    background: url(../images/g9/icons/arrow_open.png) right no-repeat;
+    background: url(../../images/g9/icons/arrow_open.png) right no-repeat;
     font-size: 11px !important;
     color: #1F66BD;
 }
@@ -568,11 +568,11 @@ input.compare_pipeline_input.ac_loading {
 }
 
 .promote_down {
-    background: white url("../images/g9/icons/arrow_open.png") no-repeat;
+    background: white url("../../images/g9/icons/arrow_open.png") no-repeat;
 }
 
 .promote_up {
-    background: white url("../images/g9/icons/arrow_up.png") no-repeat;
+    background: white url("../../images/g9/icons/arrow_up.png") no-repeat;
 }
 
 .promote_up,
@@ -780,7 +780,7 @@ span.contextual_help.stage_approval{
 
 a.add_item {
     padding: 8px 5px 0 22px;
-    background: url(../images/g9/icon_add_16.png) no-repeat 1px 5px;
+    background: url(../../images/g9/icon_add_16.png) no-repeat 1px 5px;
     display: block;
     width: 80px;
     margin: 10px 0;
@@ -826,7 +826,7 @@ a.add_item {
 }
 
 .environment .pipeline div.has_new_materials {
-    background: url(../images/g9/icons/icon_info_16.png) no-repeat 0 2px;
+    background: url(../../images/g9/icons/icon_info_16.png) no-repeat 0 2px;
     padding-left: 20px;
     padding-bottom: 2px;
 }
@@ -998,12 +998,12 @@ a.add_item {
     padding-left: 14px;
     margin: 3px 0;
     cursor: pointer;
-    background: url(../images/g9/icons/arrow_open.png) 0 50% no-repeat transparent;
+    background: url(../../images/g9/icons/arrow_open.png) 0 50% no-repeat transparent;
     display: block;
 }
 
 .hidereveal_collapsed .hidereveal_expander {
-    background: url(../images/g9/icons/arrow_closed.png) 0 50% no-repeat transparent;
+    background: url(../../images/g9/icons/arrow_closed.png) 0 50% no-repeat transparent;
 }
 
 a.hidereveal_expander,
@@ -1116,7 +1116,7 @@ a.hidereveal_collapsed {
 }
 
 a#show_other_stage_runs {
-    background: url(../images/g9/icons/arrow_open.png) no-repeat right;
+    background: url(../../images/g9/icons/arrow_open.png) no-repeat right;
     padding-right: 16px;
 }
 
@@ -1207,13 +1207,13 @@ a#show_other_stage_runs {
 }
 
 .non_passing_tests span.failures {
-    background: url(../images/g9/icons/icon_failure_16.png) no-repeat 0 1px;
+    background: url(../../images/g9/icons/icon_failure_16.png) no-repeat 0 1px;
     padding-left: 20px;
         border: 0;
 }
 
 .non_passing_tests span.errors {
-    background: url(../images/g9/icons/icon_error_16.png) no-repeat 0 1px !important;
+    background: url(../../images/g9/icons/icon_error_16.png) no-repeat 0 1px !important;
     padding-left: 20px;
 }
 
@@ -1231,7 +1231,7 @@ a#show_other_stage_runs {
 }
 
 .non_passing_tests .pipeline_bar {
-    background: #CCC url(../images/g9/backgrounds/overlay_gradient_36px.png) repeat-x;
+    background: #CCC url(../../images/g9/backgrounds/overlay_gradient_36px.png) repeat-x;
     padding: 10px;
     margin-bottom: 10px;
     -moz-border-radius: 6px;
@@ -1315,12 +1315,12 @@ a#show_other_stage_runs {
 }
 
 .non_passing_tests .test_suite .test_case .test_status div.Failure {
-    background: url(../images/g9/icons/icon_failure_16.png) no-repeat 2px 2px;
+    background: url(../../images/g9/icons/icon_failure_16.png) no-repeat 2px 2px;
 
 }
 
 .non_passing_tests .test_suite .test_case .test_status div.Error {
-    background: url(../images/g9/icons/icon_error_16.png) no-repeat 2px 2px;
+    background: url(../../images/g9/icons/icon_error_16.png) no-repeat 2px 2px;
 }
 
 .non_passing_tests ol {
@@ -1383,7 +1383,7 @@ a#show_other_stage_runs {
 
 .job .progress_bar_container div {
     height: 100%;
-    background: #999 url(../images/g9/backgrounds/bg_status_gradient.png) repeat-x;
+    background: #999 url(../../images/g9/backgrounds/bg_status_gradient.png) repeat-x;
 }
 
 .overview_widget .job .elapsed_time {
@@ -1392,7 +1392,7 @@ a#show_other_stage_runs {
 }
 
 .chart_information {
-    background: url(../images/g9/icons/icon_info_16.png) no-repeat scroll 0 0;
+    background: url(../../images/g9/icons/icon_info_16.png) no-repeat scroll 0 0;
     font-size: 12px;
     background-position: 10px 9px !important;
     background-repeat: no-repeat;
@@ -1478,19 +1478,19 @@ a#show_other_stage_runs {
 }
 
 #stages .build_cause .modified_files .added {
-    background-image: url(../images/g9/icons/icon_add.png);
+    background-image: url(../../images/g9/icons/icon_add.png);
 }
 
 #stages .build_cause .modified_files .deleted {
-    background-image: url(../images/g9/icons/icon_delete.png);
+    background-image: url(../../images/g9/icons/icon_delete.png);
 }
 
 #stages .build_cause .modified_files .modified {
-    background-image: url(../images/g9/icons/icon_modified.png);
+    background-image: url(../../images/g9/icons/icon_modified.png);
 }
 
 #stages .build_cause .changed .material_name {
-    background: #eee url(../images/g9/icons/icon_info_16.png) no-repeat 6px 4px;
+    background: #eee url(../../images/g9/icons/icon_info_16.png) no-repeat 6px 4px;
     padding-left: 28px; /*padding-right: 1em;*/
 }
 
@@ -1524,7 +1524,7 @@ a#show_other_stage_runs {
 .dashboard_build_cause_like_microcontent_popups .tooltip_arrow {
     display: block;
     height: 15px;
-    background: url(../images/g9/backgrounds/tooltip_up_arrow.png) no-repeat 30px 0;
+    background: url(../../images/g9/backgrounds/tooltip_up_arrow.png) no-repeat 30px 0;
     z-index: 2;
 }
 
@@ -1779,7 +1779,7 @@ a#show_other_stage_runs {
 }
 
 .spinny {
-    background: url(../images/g9/icons/spinny_white_16.gif) no-repeat 0 50% transparent;
+    background: url(../../images/g9/icons/spinny_white_16.gif) no-repeat 0 50% transparent;
     width: 16px;
     height: 16px;
     display: block;
@@ -1795,14 +1795,14 @@ span.click_to_unlock {
 }
 
 span.click_to_unlock a {
-    background: url(../images/g9/icons/icon_lock.png) no-repeat;
+    background: url(../../images/g9/icons/icon_lock.png) no-repeat;
     display: block;
     width: 15px;
     height: 15px;
 }
 
 span.locked {
-    background: url(../images/g9/icons/icon_lock_locked.png) no-repeat;
+    background: url(../../images/g9/icons/icon_lock_locked.png) no-repeat;
     float: right !important;
     margin: 0 !important;
     border-left: none !important;
@@ -1814,7 +1814,7 @@ span.locked {
 /* use black spinny for unlocking */
 
 .locked .spinny {
-    background: url(../images/g9/icons/spinny_black_16.gif) no-repeat 10px 50% transparent;
+    background: url(../../images/g9/icons/spinny_black_16.gif) no-repeat 10px 50% transparent;
     width: 16px;
     height: 16px;
     display: block;
@@ -1918,7 +1918,7 @@ input.small_text_field {
 }
 
 .treeview .template .template_name{
-    background: url(../images/g9/icons/icon_pipeline_template_16.png) no-repeat 0 2px transparent;
+    background: url(../../images/g9/icons/icon_pipeline_template_16.png) no-repeat 0 2px transparent;
     padding: 5px 22px;
     margin: 0 5px;
     position: relative;
@@ -2121,7 +2121,7 @@ li.template_form_error {
     margin-right: 4px;
     margin-top: 3px;
     background-color: transparent;
-    background-image: url("../images/g9/backgrounds/bg_state_unknown.png");
+    background-image: url("../../images/g9/backgrounds/bg_state_unknown.png");
     background-position: left bottom;
     background-repeat: repeat-x;
     margin-bottom: 5px;
@@ -2193,7 +2193,7 @@ li.template_form_error {
 }
 
 .group_pipelines .move_pipeline span{
-  background: url("../images/g9/icons/arrow_open.png") no-repeat scroll right center transparent;
+  background: url("../../images/g9/icons/arrow_open.png") no-repeat scroll right center transparent;
   padding: 4px;
 }
 
@@ -2216,7 +2216,7 @@ li.template_form_error {
  */
 
 body.admin_templates .pipeline_header h3.entity_title{
-    background-image: url(../images/g9/icons/icon_pipeline_template_24.png);
+    background-image: url(../../images/g9/icons/icon_pipeline_template_24.png);
     background-position: -12px -10px;
 }
 
@@ -2383,7 +2383,7 @@ li.menu_item_last_with_border {
 }
 
 input.searchbox.ac_loading {
-    background-image: url('../images/g9/icons/spinny_white_16.gif');
+    background-image: url('../../images/g9/icons/spinny_white_16.gif');
 }
 
 #search_users_table {
@@ -2446,7 +2446,7 @@ li.task_property {
 */
 
 #add_error_message p {
-    background: #ffff99 url(../images/g9/icons/icon_info_16.png) no-repeat scroll 10px 50%;
+    background: #ffff99 url(../../images/g9/icons/icon_info_16.png) no-repeat scroll 10px 50%;
     font-size: 12px;
     padding: 10px 10px 10px 36px;
 }
@@ -2461,7 +2461,7 @@ li.task_property {
 }
 
 #oauth_page .info-box {
-    background: #DDEBF3 url(../images/g9/icons/icon_info_16.png) no-repeat scroll 0 0;
+    background: #DDEBF3 url(../../images/g9/icons/icon_info_16.png) no-repeat scroll 0 0;
     -moz-border-radius-bottomleft: 5px;
     -moz-border-radius-bottomright: 5px;
     -moz-border-radius-topleft: 5px;
@@ -2478,7 +2478,7 @@ li.task_property {
 }
 
 #oauth_page a.delete_link {
-    background: transparent url(../images/g9/icons/icon_close_small.png) no-repeat scroll 0 0;
+    background: transparent url(../../images/g9/icons/icon_close_small.png) no-repeat scroll 0 0;
     display: block;
     height: 14px;
     padding: 0;
@@ -2486,7 +2486,7 @@ li.task_property {
 }
 
 #oauth_page a.delete_link:hover {
-    background: transparent url(../images/g9/icons/icon_close_hover_small.png) repeat scroll 0 0;
+    background: transparent url(../../images/g9/icons/icon_close_hover_small.png) repeat scroll 0 0;
 }
 
 #oauth_page a.delete_link span {

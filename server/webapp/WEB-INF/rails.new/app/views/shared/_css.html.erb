@@ -2,19 +2,6 @@
 
 <%= stylesheet_link_tag "css_sass/global/reset.css" %>
 
-<!-- Main css -->
-<% if use_compressed_js? %>
-    <%= stylesheet_link_tag "all.css" %>
-<% else %>
-    <!-- LEGACY Structure css, TODO: migrate these to structure/application.css and patterns -->
-    <%= stylesheet_link_tag "main" %>
-    <!-- END - LEGACY Structure css, TODO: migrate these to structure/application.css and patterns -->
-
-    <!-- LEGACY Module pieces css, TODO: migrate these to patterns/plugins/views-->
-    <%= stylesheet_link_tag "module.css"%>
-    <!-- END - LEGACY Module pieces css, TODO: migrate these to patterns/plugins/views-->
-<% end %>
-
 <!-- Structure css -->
 <%= stylesheet_link_tag "css_sass/global/application.css" %>
 
@@ -54,6 +41,9 @@
             "css_sass/global/layout.css",
             "css_sass/global/responsive.css",
             "css_sass/global/typography.css",
+            "css_sass/global/module.css",
+            "css_sass/global/structure.css",
+            "css_sass/global/main.css",
             "css_sass/go-pages/admin.css",
             "css_sass/go-pages/agent.css",
             "css_sass/go-pages/backup.css",

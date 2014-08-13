@@ -50,12 +50,12 @@ a.tab_button_body_match_text {
     padding: 3px 10px 3px 10px;
 }
 .loading{
-    background: url(../images/new/ajax_loader_small.gif) 50% 50% no-repeat transparent;
+    background: url(../../images/new/ajax_loader_small.gif) 50% 50% no-repeat transparent;
 }
 
 
 .pipeline_counter_information {
-    background: url(../images/g9/icons/icon_warning_16.png) no-repeat scroll;
+    background: url(../../images/g9/icons/icon_warning_16.png) no-repeat scroll;
     background-position:0 10px;
     color: black;
     font-size: 1em;
@@ -109,7 +109,7 @@ body[dir='ltr'] {
     -webkit-border-radius: 5px
 }
 .error-box {
-    background: #ddebf3 url('../images/g9/icons/icon_error_16.png') no-repeat
+    background: #ddebf3 url('../../images/g9/icons/icon_error_16.png') no-repeat
 }
 
 
@@ -212,17 +212,17 @@ body[dir='ltr'] {
 }
 
 .pipeline_flow .pipeline .stages .stage .action_rerun .stage_action{
-    background: url(../images/g9/icons/bg_sprite_gateway_icons.png) -92px -32px no-repeat transparent;
+    background: url(../../images/g9/icons/bg_sprite_gateway_icons.png) -92px -32px no-repeat transparent;
 }
 .pipeline_flow .pipeline .stages .stage .action_rerun .stage_action:hover{
-    background: url(../images/g9/icons/bg_sprite_gateway_icons.png) -92px -2px no-repeat transparent;
+    background: url(../../images/g9/icons/bg_sprite_gateway_icons.png) -92px -2px no-repeat transparent;
 }
 
 .pipeline_flow .pipeline .stages .stage .action_cancel .stage_action{
-    background: url(../images/g9/icons/bg_sprite_gateway_icons.png) -62px -32px no-repeat transparent;
+    background: url(../../images/g9/icons/bg_sprite_gateway_icons.png) -62px -32px no-repeat transparent;
 }
 .pipeline_flow .pipeline .stages .stage .action_cancel .stage_action:hover{
-    background: url(../images/g9/icons/bg_sprite_gateway_icons.png) -62px -2px no-repeat transparent;
+    background: url(../../images/g9/icons/bg_sprite_gateway_icons.png) -62px -2px no-repeat transparent;
 }
 
 
